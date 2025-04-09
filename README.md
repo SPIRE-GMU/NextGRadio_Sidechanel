@@ -23,7 +23,7 @@ Each represents a scenario we tested the network with using our phone.
 - **Youtube/** - Traces collected from YouTube streaming activities.
 - **Retail_Sites/** - Traces collected from online retailers.
 
-### Inside Each Application Directory
+### Inside Each Scenario Directory
 Each folder contains:
 
 - **`.npy` files** - These are numpy arrays storing raw network traces. They will be labeled `CollectionX` (e.g., `Collection1`, `Collection2`, etc.).
