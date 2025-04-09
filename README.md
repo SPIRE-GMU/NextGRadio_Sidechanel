@@ -7,6 +7,8 @@
 This directory contains all code, data, and documentation from our Open Air Interface (OAI) 5G network experiment.
 
 ## Folder Structure
+Inside the Code folder
+- CW_Code.ipynb: Jupyter Notebook that defines and executes data collection.
 
 ### Inside `dataCollection/Phone`:
 Each represents a scenario we tested the network with using our phone.
