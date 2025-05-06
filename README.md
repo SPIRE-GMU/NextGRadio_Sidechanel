@@ -9,14 +9,14 @@ This directory contains all code, data, and documentation from our Open Air Inte
 ## Folder Structure
 ### Inside `Code`:
 - CW_Code.ipynb: Jupyter Notebook that defines and executes data collection.
+- ML_Code.ipynb: Jupyter Notebook that has the Random Forest model code.
 
-### Inside `Final5GDataCollection`:
-Two main folders for the two UEs that were tested: PHONE and RADIO
+### Inside `Data`:
+Two main folders for the two UEs that were tested: PHONE and RADIO. An additional folder containing test data.
 
 Inside the PHONE Folder:
 Each represents a scenario we tested the network with using our phone.
 
-- **Graphs/** - Contains plots comparing different network activities and their performance.
 - **Idle/** - The phone is connected but is performing no activites.
 - **News/** - Data from accessing online news websites.
 - **Radio/** - Traces collected from streaming online broadcast radio stations.
@@ -25,7 +25,6 @@ Each represents a scenario we tested the network with using our phone.
 - **Retail/** - Traces collected from online retailers.
 
 Inside the RADIO Folder:
-- **Downlink/** - Traces collected from a downlink connection between the base station and UE
 - **Uplink/** - Traces collected from a uplink connection between the base station and UE
     - **5M** - iPerf test with 5M bandwidth size
     - **10M** - iPerf test with 10M bandwidth size
